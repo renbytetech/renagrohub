@@ -1,0 +1,43 @@
+.aimsContainer {
+    width: 100%;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.aimsPicture {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 58%;
+}
+
+.aimsPicture div {
+    display: flex;
+    gap: 25px;
+}
+
+.aimsText {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.aimsText h2 {
+    color: #244221;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67.05px;
+    text-align: left;
+    width: 81%;
+}
+
+.aimsText p {
+    width: 75%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40.46px;
+    text-align: left;
+    color: #000000;
+}

@@ -1,0 +1,37 @@
+.whyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.whyContainer>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+    color: #40593D;
+}
+
+.whyWrapper {
+    display: flex;
+    gap: 89px;
+}
+
+.whySingle {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.whySingle p {
+    color: #244221;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.46px;
+    text-align: center;
+    width: 85%;
+}
