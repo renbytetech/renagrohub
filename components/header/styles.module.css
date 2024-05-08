@@ -17,6 +17,10 @@
     color: #0E300BE8;
 }
 
+.headerLogo svg {
+    display: none;
+}
+
 .navLinks {
     display: flex;
     align-items: center;
@@ -70,6 +74,7 @@
 
     .headerLogo svg {
         cursor: pointer;
+        display: block;
     }
 
     .headerContainer .navLinks,
