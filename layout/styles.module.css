@@ -3,3 +3,10 @@
     max-width: 1240px;
     margin: 0px auto;
 }
+
+@media screen and (max-width:500px) {
+    .layoutContainer {
+        width: 95%;
+        max-width: 100%;
+    }
+}

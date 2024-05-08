@@ -73,3 +73,23 @@
     line-height: 34.68px;
     text-align: center;
 }
+
+@media screen and (max-width:500px) {
+    .offerWrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .offerSingle1,
+    .offerSingle2 {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .offerSingle1 p,
+    .offerSingle2 p {
+        width: 100%;
+        font-size: 20px;
+    }
+}

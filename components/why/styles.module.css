@@ -35,3 +35,14 @@
     text-align: center;
     width: 85%;
 }
+
+@media screen and (max-width:500px) {
+    .whyWrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .whySingle {
+        width: 100%;
+    }
+}

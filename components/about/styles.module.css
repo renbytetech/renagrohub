@@ -77,3 +77,25 @@
     line-height: 40.46px;
     text-align: center;
 }
+
+@media screen and (max-width:500px) {
+
+    .aboutCont,
+    .aboutWrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .aboutSingle,
+    .aboutVision {
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .aboutSingle p,
+    .aboutVision p {
+        width: 100%;
+        font-size: 20px;
+    }
+}

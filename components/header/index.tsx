@@ -1,13 +1,20 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 import { headerNav } from "@/utils/data";
 import Link from "next/link";
 import UserSvg from "@/svgs/user";
+import Bars from "@/svgs/bars";
+import Close from "@/svgs/close";
 
 const Header = () => {
+  const [mobile, setMobile] = useState(false);
   return (
-    <div className={styles.headerContainer}>
-      <h2>Farm Link</h2>
+    <div className={mobile ? `${styles.headerContainer}  ${styles.headerCont}` : styles.headerContainer}>
+      <div className={styles.headerLogo}>
+        <h2>Farm Link</h2>
+        {mobile ? <Close action={() => setMobile(false)} /> : <Bars action={() => setMobile(true)} />}
+      </div>
       <div className={styles.navLinks}>
         {headerNav?.map((item, index) => {
           return (

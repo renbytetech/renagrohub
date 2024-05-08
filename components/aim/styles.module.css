@@ -41,3 +41,38 @@
     text-align: left;
     color: #000000;
 }
+
+@media screen and (max-width:500px) {
+    .aimsContainer {
+        padding: 100px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .aimsText {
+        gap: 20px;
+    }
+
+    .aimsText h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .aimsText p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .aimsPicture {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .aimsPicture div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aimsPicture div img {
+        width: 100%;
+    }
+}

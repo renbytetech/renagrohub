@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-.headerContainer>h2 {
+.headerLogo>h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 29.26px;
@@ -48,4 +48,37 @@
     font-weight: 400;
     line-height: 34.68px;
     text-align: left;
+}
+
+@media screen and (max-width:500px) {
+    .headerContainer {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .navLinks {
+        flex-direction: column;
+    }
+
+    .headerLogo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .headerLogo svg {
+        cursor: pointer;
+    }
+
+    .headerContainer .navLinks,
+    .headerContainer .headerButton {
+        display: none;
+    }
+
+    .headerCont .navLinks,
+    .headerCont .headerButton {
+        display: flex;
+    }
 }
